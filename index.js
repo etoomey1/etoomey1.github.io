@@ -1,16 +1,5 @@
 var app = document.getElementById('app');
 
-var typewriter = new Typewriter(app, {
-  loop: true,
-  delay: 75,
-});
-
-typewriter
-  .pauseFor(1000)
-  .typeString('I am a financial data scientist') //Add your own tagline
-  .pauseFor(3000)
-  .start()
-
 
 var granimInstance = new Granim({
     element: '#canvas-image-blending',
